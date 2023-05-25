@@ -11,6 +11,10 @@ public class PlayerController : MonoBehaviour
     public float zMin;
     public float zMax;
     public float verticalInput;
+
+    private AudioSource playerAudio;
+    public AudioClip starSound;
+    public ParticleSystem fireworksParticle;
     // Start is called before the first frame update
     void Start()
     {
